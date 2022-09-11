@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { services } from '../../data/data';
 import { CardServices } from '../cards';
-import { Error, Loading } from '../general';
+import { Loading } from '../general';
 import { Section } from '../section';
 
 const StyledServiceList = styled.div`
   display: flex;
-  gap: ${({ theme }) => theme.spacing.large};
+  gap: ${({ theme }) => theme.spacing.xl};
 
   flex-direction: column;
   @media (min-width: ${({ theme }) => theme.devices.desktop}) {
@@ -16,16 +16,11 @@ const StyledServiceList = styled.div`
 `;
 
 const Services = () => {
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
-  //   console.log(services);
   return (
     <>
       <Section title="Services" subTitle="What I Am Good At." id="services" />
       <StyledServiceList>
-        {error ? (
-          <Error>{error}</Error>
-        ) : loading || !services ? (
+        {!services ? (
           <Loading />
         ) : (
           services.map((service) => {

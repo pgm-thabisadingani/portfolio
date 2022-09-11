@@ -63,7 +63,12 @@ const Hero = () => {
       <h1 className="mb-6">Hey there, I am Thabisa </h1>
       <h3>A front-end developer, building beautiful web experiences.</h3>
       <StylesButtons>
-        <Button style="mb-6" title="Contact me" type="primary" url="/donate" />
+        <Button
+          style="mb-6"
+          title="Contact me"
+          type="primary"
+          url="/#contact"
+        />
         <Button
           title="View my CV"
           type="tertiary"

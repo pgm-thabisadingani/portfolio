@@ -28,7 +28,6 @@ export const theme = {
   fontSizes: {
     small: '0.5rem',
     regular: '1rem',
-    regularmedium: '1.5rem',
     medium: '1.2rem',
     mediumLarge: '1.5rem',
     large: '2rem',
@@ -48,6 +47,7 @@ export const theme = {
   devices: {
     mini: '505px',
     tablet: '768px',
+    tabletLarge: '910px',
     desktop: '1024px',
     desktopL: '1280px',
     desktopXL: '1920px',

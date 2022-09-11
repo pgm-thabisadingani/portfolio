@@ -5,6 +5,7 @@ import { Hero } from '../components/hero';
 import { Layout } from '../components/layout';
 import { Projects } from '../components/project';
 import { Services } from '../components/services';
+import { Technologies } from '../components/tech';
 
 // const FeedContainer = styled.div`
 //   h2 {
@@ -19,6 +20,7 @@ export default function Home() {
       <Services />
       <Projects />
       <About />
+      <Technologies />
       <Contact />
     </Layout>
   );

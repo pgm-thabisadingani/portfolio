@@ -6,15 +6,29 @@
 
 export interface Service {
   id?: string;
+  title: string;
   detail: string;
   svg: string;
-  title: string;
 }
-
-export interface Avatar {
-  id: number;
-  name: string;
-  size: number;
+export interface Project {
+  id?: string;
+  title: string;
+  detail: string;
+  img: string;
+  linkGit: string;
+  linkLive: string;
+  date: string;
+  lang: string[];
+}
+export interface Tech {
+  id?: string;
+  title: string;
+  svg: string;
+}
+export interface Contact {
+  id?: string;
+  svg: string;
+  url: string;
 }
 
 export interface SidebarItem {

@@ -11,7 +11,7 @@ const StylesCard = styled.div`
     margin-top: ${({ theme }) => theme.spacing.small};
   }
   p {
-    font-size: ${({ theme }) => theme.fontSizes.mediumLarge};
+    font-size: ${({ theme }) => theme.fontSizes.medium};
     font-weight: ${({ theme }) => theme.fontWeights.light};
   }
 `;
