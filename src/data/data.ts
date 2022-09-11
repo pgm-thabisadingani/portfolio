@@ -87,20 +87,20 @@ export const catergories = [
 export const services = [
   {
     id: 'project1',
-    svg: 'project',
+    svg: 'code.svg',
     title: 'Web Development',
-    detail: 'Web Development is about webdevelpent',
+    detail: 'Secure and user-friendly web applications.',
   },
   {
-    id: 'project1',
-    svg: 'project',
-    title: 'Web Development',
-    detail: 'Web Development is about webdevelpent',
+    id: 'project2',
+    svg: 'brush.svg',
+    title: 'Web Design',
+    detail: 'Designing and creating websites that engage users.',
   },
   {
-    id: 'project1',
-    svg: 'project',
-    title: 'Web Development',
-    detail: 'Web Development is about webdevelpent',
+    id: 'project3',
+    svg: 'block.svg',
+    title: 'Responsive Design',
+    detail: 'Modern responsive and cross-platform websites.',
   },
 ];

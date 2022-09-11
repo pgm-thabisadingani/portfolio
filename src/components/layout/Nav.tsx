@@ -38,7 +38,7 @@ const NavStyles = styled.nav`
     transition: all 0.2s ease;
 
     &:hover {
-      color: ${({ theme }) => theme.colors.pink};
+      color: ${({ theme }) => theme.colors.greyLight};
     }
   }
 
@@ -58,23 +58,23 @@ const Nav = () => {
   return (
     <PrimaryNav>
       <NavStyles>
-        <Link href="/services">
+        <Link href="#services">
           <a className={router.pathname == '/services' ? 'active' : ''}>
             Services
           </a>
         </Link>
 
-        <Link href="/services">
+        <Link href="#services">
           <a className={router.pathname == '/Projects' ? 'active' : ''}>
             Projects
           </a>
         </Link>
 
-        <Link href="/about">
+        <Link href="#about">
           <a className={router.pathname == '/about' ? 'active' : ''}>About</a>
         </Link>
 
-        <Link href="/contact">
+        <Link href="#contact">
           <a className={router.pathname == '/contact' ? 'active' : ''}>
             Contact
           </a>

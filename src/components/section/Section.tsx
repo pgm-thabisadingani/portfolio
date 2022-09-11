@@ -1,23 +1,43 @@
-import Link from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
 
-const StylesSection = styled.div``;
+const StylesSection = styled.div`
+  margin-bottom: ${({ theme }) => theme.spacing.large};
+  margin-top: ${({ theme }) => theme.spacing.xxxxxHuge};
+  h4 {
+    font-size: ${({ theme }) => theme.fontSizes.large};
+    font-weight: ${({ theme }) => theme.fontWeights.medium};
+
+    @media (min-width: ${({ theme }) => theme.devices.tablet}) {
+      font-size: ${({ theme }) => theme.fontSizes.largeXl};
+    }
+  }
+  h2 {
+    color: ${({ theme }) => theme.colors.pink};
+    font-size: ${({ theme }) => theme.fontSizes.medium};
+    font-weight: ${({ theme }) => theme.fontWeights.medium};
+    text-transform: uppercase;
+
+    @media (min-width: ${({ theme }) => theme.devices.tablet}) {
+      font-size: ${({ theme }) => theme.fontSizes.medium};
+    }
+  }
+`;
 
 /**
  * Interface
  */
 export interface Props {
   title: string;
-  intro: string;
+  subTitle: string;
   id: string;
 }
 
-const Section = ({ title, intro, id }: Props) => {
+const Section = ({ title, subTitle, id }: Props) => {
   return (
     <StylesSection id={id}>
       <h2>{title}</h2>
-      <p>{intro}</p>
+      <h4>{subTitle}</h4>
     </StylesSection>
   );
 };

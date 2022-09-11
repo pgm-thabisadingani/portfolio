@@ -2,7 +2,7 @@
  * Imports
  */
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 
 // import { Button } from '../buttons/Buttons';
@@ -52,6 +52,14 @@ interface Props {
  * Component
  */
 const Menu = ({ open }: Props) => {
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      setTimeout(() => {
+        document.querySelector(hash).scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }
+  });
   return (
     <StyledMenu open={open}>
       {/* <div className="">
@@ -62,19 +70,19 @@ const Menu = ({ open }: Props) => {
         <a>Home</a>
       </Link>
 
-      <Link href="/services">
+      <Link href="#services">
         <a>Services</a>
       </Link>
 
-      <Link href="/services">
+      <Link href="#projects">
         <a>Projects</a>
       </Link>
 
-      <Link href="/about">
+      <Link href="#about">
         <a>About</a>
       </Link>
 
-      <Link href="/contact">
+      <Link href="#contact">
         <a>Contact</a>
       </Link>
     </StyledMenu>

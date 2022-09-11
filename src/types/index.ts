@@ -4,11 +4,12 @@
 //
 // import { SVG } from 'path/to/types';
 
-export type SVG = {
-  id: number;
-  name: string;
-  color: string;
-};
+export interface Service {
+  id?: string;
+  detail: string;
+  svg: string;
+  title: string;
+}
 
 export interface Avatar {
   id: number;

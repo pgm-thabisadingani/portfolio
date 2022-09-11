@@ -11,6 +11,26 @@ const StylesHero = styled.div`
   margin-bottom: ${({ theme }) => theme.spacing.xxxHuge};
   width: 100%;
 
+  h1 {
+    font-weight: ${({ theme }) => theme.fontWeights.bold};
+    font-size: ${({ theme }) => theme.fontSizes.midXl};
+    line-height: ${({ theme }) => theme.spacing.xlHuge};
+    letter-spacing: -3px;
+
+    @media (min-width: ${({ theme }) => theme.devices.tablet}) {
+      font-size: ${({ theme }) => theme.fontSizes.xl};
+    }
+  }
+  h3 {
+    font-weight: ${({ theme }) => theme.fontWeights.light};
+    font-size: ${({ theme }) => theme.fontSizes.large};
+    line-height: 48px;
+
+    @media (min-width: ${({ theme }) => theme.devices.tablet}) {
+      font-size: ${({ theme }) => theme.fontSizes.mediumXl};
+    }
+  }
+
   @media (min-width: ${({ theme }) => theme.devices.tablet}) {
     width: 80%;
   }
