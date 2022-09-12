@@ -19,20 +19,24 @@ const Container = styled.div`
   margin: 0 auto;
   padding: 0 ${({ theme }) => theme.spacing.regular};
   padding-top: ${({ theme }) => theme.spacing.regular};
+  @media (min-width: ${({ theme }) => theme.devices.desktop}) {
+    width: 75vw;
+  }
   @media (min-width: ${({ theme }) => theme.devices.desktopL}) {
-    width: 80vw;
+    width: 65vw;
   }
 `;
 const StyledHeader = styled.section`
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
 `;
 
 const StyledContent = styled.div``;
 
 const Main = styled.main`
   flex-basis: 100%;
-  height: calc(100vh - 2rem);
+  /* height: calc(100vh - 2rem); */
 `;
 
 const HeaderStyles = styled.div`
@@ -45,11 +49,12 @@ const HeaderStyles = styled.div`
 const StylesLogo = styled.h2`
   padding: ${({ theme }) => theme.spacing.regular};
   padding-left: 0;
-  font-size: ${({ theme }) => theme.fontSizes.regular};
-  font-weight: 900;
+  /* font-size: ${({ theme }) => theme.fontSizes.large}; */
+  font-size: 24px;
+  font-weight: 800;
   color: ${({ theme }) => theme.colors.dark};
   @media (min-width: ${({ theme }) => theme.devices.desktopL}) {
-    font-size: ${({ theme }) => theme.fontSizes.large};
+    font-size: 28px;
   }
 `;
 

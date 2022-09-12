@@ -5,7 +5,7 @@ import { Service } from '../../types';
 
 const StylesCard = styled.div`
   h4 {
-    font-size: ${({ theme }) => theme.fontSizes.large};
+    font-size: 1.7rem;
     font-weight: ${({ theme }) => theme.fontWeights.medium};
     margin-bottom: ${({ theme }) => theme.spacing.small};
     margin-top: ${({ theme }) => theme.spacing.small};

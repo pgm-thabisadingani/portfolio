@@ -1,6 +1,7 @@
 export const projects = [
   {
     id: 'project1',
+    catergoryId: 'project2',
     img: 'project',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
@@ -11,36 +12,40 @@ export const projects = [
   },
   {
     id: 'project2',
+    catergoryId: 'project1',
     img: 'project',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com/',
     linkLive: 'live.com',
     date: '10/20/21',
-    lang: [' php'],
+    lang: ['react native'],
   },
   {
     id: 'project3',
+    catergoryId: 'project3',
     img: 'project',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com/',
     linkLive: 'live.com',
     date: '10/20/21',
-    lang: ['other'],
+    lang: ['Nunjucks'],
   },
   {
     id: 'project4',
+    catergoryId: 'project4',
     img: 'project',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com/',
     linkLive: 'live.com',
     date: '10/20/21',
-    lang: [' react native'],
+    lang: ['PHP'],
   },
   {
     id: 'project5',
+    catergoryId: 'project1',
     img: 'project',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
@@ -51,6 +56,7 @@ export const projects = [
   },
   {
     id: 'project6',
+    catergoryId: 'project2',
     img: 'project',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
@@ -58,6 +64,17 @@ export const projects = [
     linkLive: 'live.com',
     date: '10/20/21',
     lang: [' react'],
+  },
+  {
+    id: 'project7',
+    catergoryId: 'project5',
+    img: 'project',
+    title: 'Web Development',
+    detail: 'Web Development is about webdevelpent',
+    linkGit: 'github.com',
+    linkLive: 'live.com',
+    date: '10/20/21',
+    lang: ['WordPress, PHP JS'],
   },
 ];
 
@@ -86,24 +103,33 @@ export const contacts = [
 
 export const catergories = [
   {
+    id: 'All',
+    title: 'All',
+  },
+  {
+    id: 'project0',
+    title: 'JavaScript',
+  },
+
+  {
     id: 'project1',
-    cover: 'reatc native',
+    title: 'react native',
   },
   {
     id: 'project2',
-    cover: ['React'],
+    title: 'React',
   },
   {
     id: 'project3',
-    cover: ['next', 'typescript'],
+    title: 'Nunjucks',
   },
   {
     id: 'project4',
-    cover: ['php'],
+    title: 'PHP',
   },
   {
     id: 'project5',
-    cover: ['other'],
+    title: 'WordPress',
   },
 ];
 

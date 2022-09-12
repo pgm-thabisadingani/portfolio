@@ -18,7 +18,8 @@ const PrimaryNav = styled.div`
   a {
     color: ${({ theme }) => theme.colors.dark};
     font-weight: ${({ theme }) => theme.fontWeights.medium};
-    font-size: ${({ theme }) => theme.fontSizes.medium};
+    font-size: ${({ theme }) => theme.fontSizes.regular};
+    font-size: 1.2rem;
   }
 
   @media (min-width: ${({ theme }) => theme.devices.desktopL}) {

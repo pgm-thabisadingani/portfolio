@@ -9,7 +9,7 @@ const StylesSection = styled.div`
     font-weight: ${({ theme }) => theme.fontWeights.medium};
 
     @media (min-width: ${({ theme }) => theme.devices.tablet}) {
-      font-size: ${({ theme }) => theme.fontSizes.largeXl};
+      font-size: 2.5rem;
     }
   }
   h2 {

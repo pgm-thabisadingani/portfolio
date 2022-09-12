@@ -28,15 +28,16 @@ const StylesHero = styled.div`
 
     @media (min-width: ${({ theme }) => theme.devices.tablet}) {
       font-size: ${({ theme }) => theme.fontSizes.mediumXl};
+      font-size: 2.3rem;
     }
   }
 
   @media (min-width: ${({ theme }) => theme.devices.tablet}) {
-    width: 80%;
+    width: 78%;
   }
 
   @media (min-width: ${({ theme }) => theme.devices.desktopL}) {
-    width: 50%;
+    width: 58%;
     margin-top: ${({ theme }) => theme.spacing.xxxxxHuge};
     margin-bottom: ${({ theme }) => theme.spacing.xxxxxHuge};
   }

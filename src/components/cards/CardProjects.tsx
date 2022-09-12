@@ -7,7 +7,7 @@ const StylesCard = styled.div`
   flex-basis: 100%;
   flex-grow: 1;
   h4 {
-    font-size: ${({ theme }) => theme.fontSizes.large};
+    font-size: 1.7rem;
     font-weight: ${({ theme }) => theme.fontWeights.medium};
     margin-bottom: ${({ theme }) => theme.spacing.small};
     margin-top: ${({ theme }) => theme.spacing.small};
@@ -22,7 +22,7 @@ const StylesCard = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.devices.desktop}) {
-    flex-basis: 31%;
+    flex-basis: 30%;
   }
 `;
 

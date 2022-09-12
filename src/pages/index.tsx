@@ -1,4 +1,5 @@
 // import styled from 'styled-components';
+
 import { About } from '../components/about';
 import { Contact } from '../components/contact';
 import { Hero } from '../components/hero';
