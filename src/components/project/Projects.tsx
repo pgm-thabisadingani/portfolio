@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { catergories, projects } from '../../data/data';
 import { CardProjects } from '../cards';
 import { Loading } from '../general';
-import { Section } from '../section';
+import { FadeSection, Section } from '../section';
 
 const StyledProjectList = styled.div`
   display: flex;
@@ -18,13 +18,27 @@ const StyledProjectList = styled.div`
 
 const StylesButtons = styled.div`
   display: flex;
-  gap: ${({ theme }) => theme.spacing.large};
+  gap: ${({ theme }) => theme.spacing.small};
   margin-bottom: ${({ theme }) => theme.spacing.medium};
   text-transform: Capitalize;
+  color: ${({ theme }) => theme.colors.dark};
 
   .active {
-    color: ${({ theme }) => theme.colors.pink};
-    font-weight: ${({ theme }) => theme.fontWeights.bold};
+    color: ${({ theme }) => theme.colors.white};
+    background-color: ${({ theme }) => theme.colors.pink};
+    border: 2px ${({ theme }) => theme.colors.pink} solid;
+  }
+`;
+const StyleCategory = styled.div`
+  border: 2px ${({ theme }) => theme.colors.dark} solid;
+  padding: ${({ theme }) => theme.spacing.Xsmall} 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.white};
+    background-color: ${({ theme }) => theme.colors.pink};
+    border: 2px ${({ theme }) => theme.colors.pink} solid;
   }
 `;
 
@@ -34,7 +48,7 @@ const Projects = () => {
   console.log(category);
 
   return (
-    <>
+    <FadeSection>
       <Section title="Projects" subTitle="Explore My Work." id="projects" />
       <StylesButtons>
         {!catergories ? (
@@ -42,13 +56,13 @@ const Projects = () => {
         ) : (
           catergories.map((cat) => {
             return (
-              <p
+              <StyleCategory
                 key={cat.id}
                 onClick={() => setCategory(cat.id)}
                 className={`list-group-item ${cat.id == category && 'active'}`}
               >
                 {cat.title}
-              </p>
+              </StyleCategory>
             );
           })
         )}
@@ -91,7 +105,7 @@ const Projects = () => {
           })
         )}
       </StyledProjectList>
-    </>
+    </FadeSection>
   );
 };
 

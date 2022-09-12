@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { services } from '../../data/data';
 import { CardServices } from '../cards';
 import { Loading } from '../general';
-import { Section } from '../section';
+import { FadeSection, Section } from '../section';
 
 const StyledServiceList = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ const StyledServiceList = styled.div`
 
 const Services = () => {
   return (
-    <>
+    <FadeSection>
       <Section title="Services" subTitle="What I Am Good At." id="services" />
       <StyledServiceList>
         {!services ? (
@@ -35,7 +35,7 @@ const Services = () => {
           })
         )}
       </StyledServiceList>
-    </>
+    </FadeSection>
   );
 };
 

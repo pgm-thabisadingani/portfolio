@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { technologies } from '../../data/data';
 import { Loading } from '../general';
+import { FadeSection } from '../section';
 import TechItem from './TechItem';
 
 const StylesContainer = styled.div`
@@ -47,17 +48,21 @@ const StylesTracker = styled.div`
 
 const Technologies = () => {
   return (
-    <StylesContainer className="w-full h-[100px] flex justify-center items-center">
-      <StylesTracker>
-        {!technologies ? (
-          <Loading />
-        ) : (
-          technologies.map((tech) => {
-            return <TechItem key={tech.id} svg={tech.svg} title={tech.title} />;
-          })
-        )}
-      </StylesTracker>
-    </StylesContainer>
+    <FadeSection>
+      <StylesContainer className="w-full h-[100px] flex justify-center items-center">
+        <StylesTracker>
+          {!technologies ? (
+            <Loading />
+          ) : (
+            technologies.map((tech) => {
+              return (
+                <TechItem key={tech.id} svg={tech.svg} title={tech.title} />
+              );
+            })
+          )}
+        </StylesTracker>
+      </StylesContainer>
+    </FadeSection>
   );
 };
 

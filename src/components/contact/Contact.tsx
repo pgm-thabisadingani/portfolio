@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { contacts } from '../../data/data';
 import { Loading } from '../general';
-import { Section } from '../section';
+import { FadeSection, Section } from '../section';
 import ContactItem from './ContactItem';
 
 const StylesContainer = styled.div`
@@ -13,7 +13,7 @@ console.log(contacts);
 
 const Contact = () => {
   return (
-    <>
+    <FadeSection>
       <Section title="Contact" subTitle="Get In Touch." id="contact" />
       <StylesContainer>
         {!contacts ? (
@@ -30,7 +30,7 @@ const Contact = () => {
           })
         )}
       </StylesContainer>
-    </>
+    </FadeSection>
   );
 };
 

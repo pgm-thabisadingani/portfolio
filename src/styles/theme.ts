@@ -7,6 +7,7 @@ export const theme = {
     grey: '#4b4c4c',
   },
   spacing: {
+    Xsmall: '0.2rem',
     small: '0.5rem',
     regular: '1rem',
     medium: '2rem',

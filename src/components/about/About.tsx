@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section } from '../section';
+import { FadeSection, Section } from '../section';
 import styled from 'styled-components';
 import Image from 'next/image';
 
@@ -37,7 +37,7 @@ const StylesRight = styled.div`
 
 const About = () => {
   return (
-    <>
+    <FadeSection>
       <Section title="About" subTitle="Who I Am." id="about" />
       <StylesAbout>
         <StylesLeft>
@@ -64,7 +64,7 @@ const About = () => {
           />
         </StylesRight>
       </StylesAbout>
-    </>
+    </FadeSection>
   );
 };
 
