@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import FadeSection from './FadeSection';
 
 const StylesSection = styled.div`
   margin-bottom: ${({ theme }) => theme.spacing.large};
@@ -36,12 +35,10 @@ export interface Props {
 
 const Section = ({ title, subTitle, id }: Props) => {
   return (
-    <FadeSection>
-      <StylesSection id={id}>
-        <h2>{title}</h2>
-        <h4>{subTitle}</h4>
-      </StylesSection>
-    </FadeSection>
+    <StylesSection id={id}>
+      <h2>{title}</h2>
+      <h4>{subTitle}</h4>
+    </StylesSection>
   );
 };
 

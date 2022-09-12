@@ -8,8 +8,8 @@ import { FadeSection, Section } from '../section';
 const StyledProjectList = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: ${({ theme }) => theme.spacing.large};
-
+  justify-content: space-between;
+  align-items: center;
   flex-direction: column;
   @media (min-width: ${({ theme }) => theme.devices.desktop}) {
     flex-direction: row;
@@ -18,6 +18,7 @@ const StyledProjectList = styled.div`
 
 const StylesButtons = styled.div`
   display: flex;
+  flex-wrap: wrap;
   gap: ${({ theme }) => theme.spacing.small};
   margin-bottom: ${({ theme }) => theme.spacing.medium};
   text-transform: Capitalize;

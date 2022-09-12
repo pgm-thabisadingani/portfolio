@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { FadeSection, Section } from '../section';
 import styled from 'styled-components';
@@ -45,10 +46,6 @@ const About = () => {
             I'm a Belgian-based front-end developer and designer from South
             Africa. I enjoy creating websites that are fast, interactive, and
             cross-platform and device compatible.
-          </p>
-          <p>
-            I use a variety of frameworks and libraries, but HTML5, CSS3, and
-            JavaScript make up the majority of my websites.
           </p>
           <p>
             I use a variety of frameworks and libraries, but HTML5, CSS3, and

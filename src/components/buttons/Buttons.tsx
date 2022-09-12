@@ -23,9 +23,9 @@ const BtnStyles = styled.a`
   transition: all 0.2s ease;
   width: 100%;
   &:hover {
-    background-color: ${({ theme }) => theme.colors.pink};
+    background-color: ${({ theme }) => theme.colors.grey};
     color: ${({ theme }) => theme.colors.white};
-    border: 2px ${({ theme }) => theme.colors.pink} solid;
+    border: 2px ${({ theme }) => theme.colors.grey} solid;
   }
   @media (min-width: ${({ theme }) => theme.devices.mini}) {
     flex-direction: row;
@@ -57,9 +57,9 @@ const BtnTertiary = styled(BtnStyles)`
   border: 2px ${({ theme }) => theme.colors.dark} solid;
   color: ${({ theme }) => theme.colors.dark};
   &:hover {
-    background-color: ${({ theme }) => theme.colors.pink};
+    background-color: ${({ theme }) => theme.colors.grey};
     color: ${({ theme }) => theme.colors.white};
-    border: 2px ${({ theme }) => theme.colors.pink} solid;
+    border: 2px ${({ theme }) => theme.colors.grey} solid;
   }
 `;
 

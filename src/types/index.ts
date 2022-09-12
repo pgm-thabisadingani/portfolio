@@ -16,8 +16,8 @@ export interface Project {
   detail: string;
   img: string;
   linkGit: string;
-  linkLive: string;
-  date: string;
+  linkLive?: string;
+  date?: string;
   lang: string[];
 }
 export interface Tech {

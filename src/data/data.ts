@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 'project1',
     catergoryId: 'project2',
-    img: 'project',
+    img: 'gentse_feesten.png',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com/',
@@ -13,7 +13,7 @@ export const projects = [
   {
     id: 'project2',
     catergoryId: 'project1',
-    img: 'project',
+    img: 'gentse_feesten.png',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com/',
@@ -24,7 +24,7 @@ export const projects = [
   {
     id: 'project3',
     catergoryId: 'project3',
-    img: 'project',
+    img: 'gentse_feesten.png',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com/',
@@ -35,7 +35,7 @@ export const projects = [
   {
     id: 'project4',
     catergoryId: 'project4',
-    img: 'project',
+    img: 'gentse_feesten.png',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com/',
@@ -46,7 +46,7 @@ export const projects = [
   {
     id: 'project5',
     catergoryId: 'project1',
-    img: 'project',
+    img: 'gentse_feesten.png',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com',
@@ -57,7 +57,7 @@ export const projects = [
   {
     id: 'project6',
     catergoryId: 'project2',
-    img: 'project',
+    img: 'gentse_feesten.png',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com',
@@ -68,13 +68,13 @@ export const projects = [
   {
     id: 'project7',
     catergoryId: 'project5',
-    img: 'project',
+    img: 'gentse_feesten.png',
     title: 'Web Development',
     detail: 'Web Development is about webdevelpent',
     linkGit: 'github.com',
     linkLive: 'live.com',
     date: '10/20/21',
-    lang: ['WordPress, PHP JS'],
+    lang: ['WordPress', 'PHP', 'JS'],
   },
 ];
 
