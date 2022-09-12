@@ -4,7 +4,7 @@ export const theme = {
     pink: '#E76385',
     white: '#ffffff',
     greyLight: '#bebebe',
-    grayMid: '#d1d1d1',
+    grayMid: 'rgb(236 236 239)',
     grey: '#4b4c4c',
   },
   spacing: {

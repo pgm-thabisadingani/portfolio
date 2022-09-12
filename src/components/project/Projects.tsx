@@ -27,11 +27,11 @@ const StylesButtons = styled.div`
   .active {
     color: ${({ theme }) => theme.colors.white};
     background-color: ${({ theme }) => theme.colors.pink};
-    border: 2px ${({ theme }) => theme.colors.pink} solid;
+    border: 1px ${({ theme }) => theme.colors.pink} solid;
   }
 `;
 const StyleCategory = styled.div`
-  border: 2px ${({ theme }) => theme.colors.dark} solid;
+  border: 1px ${({ theme }) => theme.colors.dark} solid;
   padding: ${({ theme }) => theme.spacing.Xsmall} 1rem;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -39,7 +39,7 @@ const StyleCategory = styled.div`
   &:hover {
     color: ${({ theme }) => theme.colors.white};
     background-color: ${({ theme }) => theme.colors.pink};
-    border: 2px ${({ theme }) => theme.colors.pink} solid;
+    border: 1px ${({ theme }) => theme.colors.pink} solid;
   }
 `;
 

@@ -36,6 +36,7 @@ const StylesCardImg = styled.div`
 `;
 
 const StylesCardInfo = styled.div`
+  margin-top: ${({ theme }) => theme.spacing.regular};
   p {
     font-size: ${({ theme }) => theme.fontSizes.medium};
   }
@@ -55,7 +56,7 @@ const StylesCardInfo = styled.div`
       color: ${({ theme }) => theme.colors.dark};
       transition: all 0.2s ease;
       a {
-        font-size: ${({ theme }) => theme.fontSizes.medium};
+        font-size: ${({ theme }) => theme.fontSizes.regular};
       }
 
       &:hover {
@@ -79,11 +80,12 @@ const StylesCardInfo = styled.div`
     display: flex;
     gap: 0.5rem;
     text-align: center;
+    margin-top: ${({ theme }) => theme.spacing.regular};
+    margin-bottom: ${({ theme }) => theme.spacing.small};
     li {
-      background-color: ${({ theme }) => theme.colors.greyLight};
+      background-color: ${({ theme }) => theme.colors.grayMid};
       color: ${({ theme }) => theme.colors.grey};
-      margin-top: ${({ theme }) => theme.spacing.regular};
-      margin-bottom: ${({ theme }) => theme.spacing.regular};
+
       padding: 0.1rem 0.5rem;
       border-radius: ${({ theme }) => theme.spacing.regular};
       text-align: center;
