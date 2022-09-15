@@ -46,35 +46,51 @@ const StyleCategory = styled.div`
 const Projects = () => {
   const [category, setCategory] = useState('All');
 
-  console.log(category);
-
   return (
     <FadeSection>
-      <Section title="Projects" subTitle="Explore My Work." id="projects" />
-      <StylesButtons>
-        {!catergories ? (
-          <Loading />
-        ) : (
-          catergories.map((cat) => {
-            return (
-              <StyleCategory
-                key={cat.id}
-                onClick={() => setCategory(cat.id)}
-                className={`list-group-item ${cat.id == category && 'active'}`}
-              >
-                {cat.title}
-              </StyleCategory>
-            );
-          })
-        )}
-      </StylesButtons>
-      <StyledProjectList>
-        {!projects ? (
-          <Loading />
-        ) : (
-          projects.map((project) => {
-            if (category !== 'All' || category !== undefined) {
-              if (category === project.catergoryId) {
+      <div className="spacing">
+        <Section title="Projects" subTitle="Explore My Work." id="projects" />
+        <StylesButtons>
+          {!catergories ? (
+            <Loading />
+          ) : (
+            catergories.map((cat) => {
+              return (
+                <StyleCategory
+                  key={cat.id}
+                  onClick={() => setCategory(cat.id)}
+                  className={`list-group-item ${
+                    cat.id == category && 'active'
+                  }`}
+                >
+                  {cat.title}
+                </StyleCategory>
+              );
+            })
+          )}
+        </StylesButtons>
+        <StyledProjectList>
+          {!projects ? (
+            <Loading />
+          ) : (
+            projects.map((project) => {
+              if (category !== 'All' || category !== undefined) {
+                if (category === project.catergoryId) {
+                  return (
+                    <CardProjects
+                      key={project.id}
+                      title={project.title}
+                      detail={project.detail}
+                      img={project.img}
+                      linkGit={project.linkGit}
+                      linkLive={project.linkLive}
+                      date={project.date}
+                      lang={project.lang}
+                    />
+                  );
+                }
+              }
+              if (category === 'All') {
                 return (
                   <CardProjects
                     key={project.id}
@@ -88,24 +104,10 @@ const Projects = () => {
                   />
                 );
               }
-            }
-            if (category === 'All') {
-              return (
-                <CardProjects
-                  key={project.id}
-                  title={project.title}
-                  detail={project.detail}
-                  img={project.img}
-                  linkGit={project.linkGit}
-                  linkLive={project.linkLive}
-                  date={project.date}
-                  lang={project.lang}
-                />
-              );
-            }
-          })
-        )}
-      </StyledProjectList>
+            })
+          )}
+        </StyledProjectList>
+      </div>
     </FadeSection>
   );
 };

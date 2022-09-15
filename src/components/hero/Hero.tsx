@@ -8,7 +8,7 @@ import { FadeSection } from '../section';
  * Styles
  */
 const StylesHero = styled.div`
-  margin-top: ${({ theme }) => theme.spacing.xxxHuge};
+  margin-top: ${({ theme }) => theme.spacing.xxxxHuge};
   margin-bottom: ${({ theme }) => theme.spacing.xxxHuge};
   width: 100%;
 
@@ -37,7 +37,7 @@ const StylesHero = styled.div`
     width: 78%;
   }
 
-  @media (min-width: ${({ theme }) => theme.devices.desktopL}) {
+  @media (min-width: ${({ theme }) => theme.devices.desktopXL}) {
     width: 58%;
     margin-top: ${({ theme }) => theme.spacing.xxxxxHuge};
     margin-bottom: ${({ theme }) => theme.spacing.xxxxxHuge};

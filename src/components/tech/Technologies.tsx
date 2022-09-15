@@ -6,7 +6,7 @@ import { FadeSection } from '../section';
 import TechItem from './TechItem';
 
 const StylesContainer = styled.div`
-  margin-top: ${({ theme }) => theme.spacing.xxxxxHuge};
+  margin-top: ${({ theme }) => theme.spacing.xxxxHuge};
 
   overflow: hidden;
   position: relative;

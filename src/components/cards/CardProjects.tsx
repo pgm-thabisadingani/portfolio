@@ -84,7 +84,7 @@ const StylesCardInfo = styled.div`
     margin-bottom: ${({ theme }) => theme.spacing.small};
     li {
       background-color: ${({ theme }) => theme.colors.grayMid};
-      color: ${({ theme }) => theme.colors.grey};
+      color: ${({ theme }) => theme.colors.dark};
 
       padding: 0.1rem 0.5rem;
       border-radius: ${({ theme }) => theme.spacing.regular};

@@ -1,3 +1,6 @@
+/**
+ * Data for the Project section
+ */
 export const projects = [
   {
     id: 'project1',
@@ -78,6 +81,9 @@ export const projects = [
   },
 ];
 
+/**
+ * Data for the Coantact section
+ */
 export const contacts = [
   {
     id: 'contact1',
@@ -100,6 +106,10 @@ export const contacts = [
     url: 'https://www.linkedin.com/in/thabisa-dingani-b173251b7/',
   },
 ];
+
+/**
+ * Data for the Category list
+ */
 
 export const catergories = [
   {
@@ -133,6 +143,10 @@ export const catergories = [
   },
 ];
 
+/**
+ * Data for the Services section
+ */
+
 export const services = [
   {
     id: 'project1',
@@ -153,6 +167,10 @@ export const services = [
     detail: 'Modern responsive and cross-platform websites.',
   },
 ];
+
+/**
+ * Data for the Tech/Tools list
+ */
 
 export const technologies = [
   {

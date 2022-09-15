@@ -20,7 +20,7 @@ export const theme = {
     xxHuge: '7rem',
     xxxHuge: '8rem',
     xxxxHuge: '10rem',
-    xxxxxHuge: '12rem',
+    xxxxxHuge: '18rem',
     xxxxxxHuge: '20rem',
   },
   fontFamilies: {

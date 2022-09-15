@@ -18,23 +18,25 @@ const StyledServiceList = styled.div`
 const Services = () => {
   return (
     <FadeSection>
-      <Section title="Services" subTitle="What I Am Good At." id="services" />
-      <StyledServiceList>
-        {!services ? (
-          <Loading />
-        ) : (
-          services.map((service) => {
-            return (
-              <CardServices
-                key={service.id}
-                title={service.title}
-                detail={service.detail}
-                svg={service.svg}
-              />
-            );
-          })
-        )}
-      </StyledServiceList>
+      <div className="spacing">
+        <Section title="Services" subTitle="What I Am Good At." id="services" />
+        <StyledServiceList>
+          {!services ? (
+            <Loading />
+          ) : (
+            services.map((service) => {
+              return (
+                <CardServices
+                  key={service.id}
+                  title={service.title}
+                  detail={service.detail}
+                  svg={service.svg}
+                />
+              );
+            })
+          )}
+        </StyledServiceList>
+      </div>
     </FadeSection>
   );
 };

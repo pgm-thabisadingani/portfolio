@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const StylesSection = styled.div`
   margin-bottom: ${({ theme }) => theme.spacing.large};
-  margin-top: ${({ theme }) => theme.spacing.xxxxxHuge};
+
   h4 {
     font-size: ${({ theme }) => theme.fontSizes.large};
     font-weight: ${({ theme }) => theme.fontWeights.medium};

@@ -39,28 +39,30 @@ const StylesRight = styled.div`
 const About = () => {
   return (
     <FadeSection>
-      <Section title="About" subTitle="Who I Am." id="about" />
-      <StylesAbout>
-        <StylesLeft>
-          <p>
-            I'm a Belgian-based front-end developer and designer from South
-            Africa. I enjoy creating websites that are fast, interactive, and
-            cross-platform and device compatible.
-          </p>
-          <p>
-            I use a variety of frameworks and libraries, but HTML5, CSS3, and
-            JavaScript make up the majority of my websites.
-          </p>
-        </StylesLeft>
-        <StylesRight>
-          <Image
-            src={require(`./../../assets/avatar/avatar.png`)}
-            alt="Thabisa dingani"
-            height="350"
-            width="350"
-          />
-        </StylesRight>
-      </StylesAbout>
+      <div className="spacing">
+        <Section title="About" subTitle="Who I Am." id="about" />
+        <StylesAbout>
+          <StylesLeft>
+            <p>
+              I'm a Belgian-based front-end developer and designer from South
+              Africa. I enjoy creating websites that are fast, interactive, and
+              cross-platform and device compatible.
+            </p>
+            <p>
+              I use a variety of frameworks and libraries, but HTML5, CSS3, and
+              JavaScript make up the majority of my websites.
+            </p>
+          </StylesLeft>
+          <StylesRight>
+            <Image
+              src={require(`./../../assets/avatar/avatar.png`)}
+              alt="Thabisa dingani"
+              height="350"
+              width="350"
+            />
+          </StylesRight>
+        </StylesAbout>
+      </div>
     </FadeSection>
   );
 };
