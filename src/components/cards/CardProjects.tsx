@@ -102,7 +102,6 @@ const CardProjects = ({
   linkGit,
   linkLive,
 }: Project) => {
-  console.log(lang);
   return (
     <StylesCard>
       <StylesCardImg>

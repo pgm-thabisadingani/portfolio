@@ -88,8 +88,7 @@ const Layout = ({ children }: LayoutProps) => {
             </a>
           </Link>
           <Burger open={open} setOpen={setOpen} />
-
-          <Menu open={open} />
+          <Menu open={open} setOpen={setOpen} />
           <HeaderStyles>
             <Header />
           </HeaderStyles>

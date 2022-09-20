@@ -12,6 +12,7 @@ export const BurgerStyles = styled.button<Props>`
   border: none;
   cursor: pointer;
   background: transparent;
+  overflow: hidden;
 
   &:focus {
     outline: none;

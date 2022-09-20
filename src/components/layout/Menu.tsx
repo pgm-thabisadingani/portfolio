@@ -46,12 +46,14 @@ export const StyledMenu = styled.nav<Props>`
  */
 interface Props {
   open: boolean;
+  // eslint-disable-next-line no-unused-vars
+  setOpen: (open: boolean) => void;
 }
 
 /**
  * Component
  */
-const Menu = ({ open }: Props) => {
+const Menu = ({ setOpen, open }: Props) => {
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
@@ -60,30 +62,28 @@ const Menu = ({ open }: Props) => {
       }, 100);
     }
   });
+
+  console.log(open);
   return (
     <StyledMenu open={open}>
-      {/* <div className="">
-        <Button title="Donate" type="primary" url="/donate" />
-      </div> */}
-
-      <Link href="/">
-        <a>Home</a>
+      <Link href="#">
+        <a onClick={() => setOpen(!open)}>Home</a>
       </Link>
 
       <Link href="#services">
-        <a>Services</a>
+        <a onClick={() => setOpen(!open)}>Services</a>
       </Link>
 
       <Link href="#projects">
-        <a>Projects</a>
+        <a onClick={() => setOpen(!open)}>Projects</a>
       </Link>
 
       <Link href="#about">
-        <a>About</a>
+        <a onClick={() => setOpen(!open)}>About</a>
       </Link>
 
       <Link href="#contact">
-        <a>Contact</a>
+        <a onClick={() => setOpen(!open)}>Contact</a>
       </Link>
     </StyledMenu>
   );
