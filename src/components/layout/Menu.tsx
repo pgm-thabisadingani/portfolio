@@ -47,7 +47,7 @@ export const StyledMenu = styled.nav<Props>`
 interface Props {
   open: boolean;
   // eslint-disable-next-line no-unused-vars
-  setOpen: (open: boolean) => void;
+  setOpen?: (open: boolean) => void;
 }
 
 /**
