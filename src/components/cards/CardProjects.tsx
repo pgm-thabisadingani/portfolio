@@ -7,7 +7,7 @@ import { GoMarkGithub, GoDeviceDesktop } from 'react-icons/go';
 import Link from 'next/link';
 
 const StylesCard = styled.div`
-  flex-basis: 100%;
+  width: 100%;
   margin: ${({ theme }) => theme.spacing.large} 0rem;
 
   h4 {
@@ -23,22 +23,42 @@ const StylesCard = styled.div`
 
   @media (min-width: 1097px) {
     flex-basis: 47%;
+    margin: ${({ theme }) => theme.spacing.small} 0rem;
+    &:nth-child(even) {
+      margin-top: 10rem;
+    }
   }
 `;
 
 const StylesCardImg = styled.div`
   display: flex;
   padding: ${({ theme }) => theme.spacing.large} 2rem;
+  height: unset;
 
   justify-content: center;
   align-items: center;
   background-color: ${({ theme }) => theme.colors.dark};
+  @media (min-width: 1097px) {
+    flex-basis: 47%;
+    height: 25rem;
+  }
 `;
 
 const StylesCardInfo = styled.div`
   margin-top: ${({ theme }) => theme.spacing.regular};
   p {
     font-size: ${({ theme }) => theme.fontSizes.medium};
+    max-height: unset;
+
+    @media (min-width: 1097px) {
+      max-height: 8rem;
+    }
+    @media (min-width: ${({ theme }) => theme.devices.desktopL}) {
+      max-height: 7rem;
+    }
+    @media (min-width: ${({ theme }) => theme.devices.desktopXL}) {
+      max-height: 4.2rem;
+    }
   }
   .links {
     display: flex;
@@ -116,18 +136,20 @@ const CardProjects = ({
           ))}
         </ul>
         <div className="links">
-          <Link href={linkGit} className="links-live">
+          <Link passHref href={linkGit} className="links-live">
             <div className="links-live">
               <GoMarkGithub />
-              <a target="_blank">Code</a>
+              <a>Code</a>
             </div>
           </Link>
-          <Link href={linkLive}>
-            <div className="links-live">
-              <GoDeviceDesktop />
-              <a target="_blank"> Demo</a>
-            </div>
-          </Link>
+          {linkLive ? (
+            <Link passHref href={linkLive}>
+              <div className="links-live">
+                <GoDeviceDesktop />
+                <a> Demo</a>
+              </div>
+            </Link>
+          ) : null}
         </div>
       </StylesCardInfo>
     </StylesCard>
