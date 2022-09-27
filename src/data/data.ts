@@ -174,23 +174,29 @@ export const projects = [
 export const contacts = [
   {
     id: 'contact1',
-    svg: 'telephone.svg',
-    url: 'tel:123-456-7890',
+    svg: 'github.svg',
+    url: 'https://github.com/pgm-thabisadingani',
+    social: true,
   },
   {
     id: 'contact2',
-    svg: 'email.svg',
-    url: 'mailto: thabisad6@hotmail.co.uk',
+    svg: 'linkedin.svg',
+    url: 'https://www.linkedin.com/in/thabisa-dingani-b173251b7/',
+    social: true,
   },
   {
     id: 'contact3',
-    svg: 'github.svg',
-    url: 'https://github.com/pgm-thabisadingani',
+    svg: 'telephone.svg',
+    url: 'tel:+3247-857-0549',
+    social: false,
+    info: '047 857 0549',
   },
   {
     id: 'contact4',
-    svg: 'linkedin.svg',
-    url: 'https://www.linkedin.com/in/thabisa-dingani-b173251b7/',
+    svg: 'email.svg',
+    url: 'mailto: thabisad6@hotmail.co.uk',
+    social: false,
+    info: 'thabisad6@hotmail.co.uk',
   },
 ];
 

@@ -7,6 +7,7 @@ import ContactItem from './ContactItem';
 
 const StylesContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const Contact = () => {
@@ -24,6 +25,8 @@ const Contact = () => {
                   key={contact.id}
                   svg={contact.svg}
                   url={contact.url}
+                  social={contact.social}
+                  info={contact.info}
                 />
               );
             })

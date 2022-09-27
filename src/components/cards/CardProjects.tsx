@@ -36,7 +36,7 @@ const StylesCardImg = styled.div`
   height: unset;
 
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   background-color: ${({ theme }) => theme.colors.dark};
   @media (min-width: 1097px) {
     flex-basis: 47%;
@@ -60,6 +60,7 @@ const StylesCardInfo = styled.div`
       max-height: 4.2rem;
     }
   }
+
   .links {
     display: flex;
     gap: 0.5rem;

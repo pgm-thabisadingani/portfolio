@@ -29,6 +29,8 @@ export interface Contact {
   id?: string;
   svg: string;
   url: string;
+  social?: boolean;
+  info?: string;
 }
 
 export interface SidebarItem {

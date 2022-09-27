@@ -11,8 +11,10 @@ const StyledProjectList = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  margin-top: 1rem;
   @media (min-width: ${({ theme }) => theme.devices.desktop}) {
     flex-direction: row;
+    margin-top: -3rem;
   }
 `;
 
