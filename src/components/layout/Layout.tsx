@@ -95,8 +95,6 @@ const Layout = ({ children }: LayoutProps) => {
         </StyledHeader>
 
         <Main>
-          {/* Check if the user is on a desktop screen and if they are on the home page */}
-          {/* If yes, the height of the main page will be exactly 100 view height for a clean look */}
           <StyledContent>{children}</StyledContent>
           <Footer />
         </Main>

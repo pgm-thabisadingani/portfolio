@@ -65,7 +65,7 @@ const Nav = () => {
           </a>
         </Link>
 
-        <Link href="#services">
+        <Link href="#projects">
           <a className={router.pathname == '/Projects' ? 'active' : ''}>
             Projects
           </a>
