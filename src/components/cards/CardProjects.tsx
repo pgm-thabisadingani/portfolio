@@ -100,6 +100,7 @@ const StylesCardInfo = styled.div`
     display: flex;
     gap: 0.5rem;
     text-align: center;
+    flex-wrap: wrap;
     margin-top: ${({ theme }) => theme.spacing.regular};
     margin-bottom: ${({ theme }) => theme.spacing.small};
     li {
