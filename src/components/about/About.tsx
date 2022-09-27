@@ -45,12 +45,14 @@ const About = () => {
           <StylesLeft>
             <p>
               I'm a Belgian-based front-end developer and designer from South
-              Africa. I enjoy creating websites that are fast, interactive, and
-              cross-platform and device compatible.
+              Africa. Passionate about creating websites that are fast,
+              interactive, and cross-platform and device compatible.
             </p>
             <p>
-              I use a variety of frameworks and libraries, but HTML5, CSS3, and
-              JavaScript make up the majority of my websites.
+              I specialize in web development, user interface design, HTML/CSS,
+              ReactJS/NextJS/React Native and CMS. Proficient at identifying
+              opportunities to enhance front-end design and improve the user
+              experience.
             </p>
           </StylesLeft>
           <StylesRight>
