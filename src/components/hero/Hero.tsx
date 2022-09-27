@@ -8,7 +8,7 @@ import { FadeSection } from '../section';
  * Styles
  */
 const StylesHero = styled.div`
-  margin-top: ${({ theme }) => theme.spacing.xxxxHuge};
+  margin-top: ${({ theme }) => theme.spacing.xxxHuge};
   margin-bottom: ${({ theme }) => theme.spacing.xxxHuge};
   width: 100%;
 
@@ -51,7 +51,6 @@ const StylesButtons = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: ;
   margin-top: ${({ theme }) => theme.spacing.large};
   @media (min-width: ${({ theme }) => theme.devices.mini}) {
     flex-direction: row;

@@ -27,7 +27,7 @@ export const projects = [
     detail:
       'Avatar generator for anyone to make their beautiful personal avatar easily. Project for music for life.',
     linkGit: 'https://github.com/pgm-thabisadingani/Avatar-generator',
-    linkLive: 'https://avatar-generator-client-95rz.vercel.app/',
+    linkLive: 'https://avatar-generator-m4l.vercel.app/',
     date: '10/20/21',
     lang: ['React', 'Next-js', 'Typescript', 'Styled-components'],
   },
