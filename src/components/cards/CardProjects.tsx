@@ -136,18 +136,22 @@ const CardProjects = ({
           ))}
         </ul>
         <div className="links">
-          <Link passHref href={linkGit} className="links-live">
-            <div className="links-live">
+          <Link href={linkGit} className="links-live" target="_blank">
+            <a className="links-live" target="_blank" rel="noopener noreferrer">
               <GoMarkGithub />
-              <a>Code</a>
-            </div>
+              <span>Code</span>
+            </a>
           </Link>
           {linkLive ? (
-            <Link passHref href={linkLive}>
-              <div className="links-live">
+            <Link href={linkLive} target="_blank">
+              <a
+                className="links-live"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <GoDeviceDesktop />
-                <a> Demo</a>
-              </div>
+                <span>Demo</span>
+              </a>
             </Link>
           ) : null}
         </div>
