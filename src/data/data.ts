@@ -6,7 +6,7 @@ export const projects = [
     id: 'project1',
     catergoryId: 'project1',
     img: 'style-helper.png',
-    title: 'Outfit assistance App',
+    title: 'Outfit assistance',
     detail:
       'A mobile app that relieves the stress of deciding what to wear to any occasion.',
     linkGit: 'https://github.com/pgm-thabisadingani/virtual-closet-app',
@@ -23,7 +23,7 @@ export const projects = [
     id: 'project2',
     catergoryId: 'project2',
     img: 'music-for-life.png',
-    title: 'Avatar Generator App',
+    title: 'Avatar Generator',
     detail:
       'Avatar generator for anyone to make their beautiful personal avatar easily. Project for music for life.',
     linkGit: 'https://github.com/pgm-thabisadingani/Avatar-generator',
@@ -69,7 +69,7 @@ export const projects = [
     id: 'project13',
     catergoryId: 'project2',
     img: 'movie_app.png',
-    title: 'Movie App',
+    title: 'Movie Preview App',
     detail:
       'The Movie Application similar to the Imdb website, built with React, Movie database API and Firebase.',
     linkGit: 'https://github.com/pgm-thabisadingani/movie-app',
@@ -110,7 +110,7 @@ export const projects = [
     linkGit: 'https://github.com/pgmgent-2021-uip/walkingApp',
     linkLive: 'https://pgmgent-2021-uip.github.io/walkingApp/',
     date: '10/20/21',
-    lang: ['SASS', 'Nunjucks', 'JavaScript', 'Eleventy'],
+    lang: ['Eleventy', 'Nunjucks', 'SASS', 'JavaScript'],
   },
   {
     id: 'project8',
