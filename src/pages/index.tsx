@@ -7,6 +7,7 @@ import { Layout } from '../components/layout';
 import { Projects } from '../components/project';
 import { Services } from '../components/services';
 import { Technologies } from '../components/tech';
+import ScrollToTop from 'react-scroll-to-top';
 
 // const FeedContainer = styled.div`
 //   h2 {
@@ -23,6 +24,7 @@ export default function Home() {
       <About />
       <Technologies />
       <Contact />
+      <ScrollToTop smooth />
     </Layout>
   );
 }
