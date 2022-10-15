@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import { catergories, projects } from '../../data/data';
 import { CardProjects } from '../cards';
 import { Loading } from '../general';
-import { FadeSection, Section } from '../section';
+import { Section } from '../section';
+// import { FadeSection, Section } from '../section';
 
 const StyledProjectList = styled.div`
   display: flex;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button } from '../buttons/Buttons';
-import { FadeSection } from '../section';
+// import { FadeSection } from '../section';
 // import myResume from './assets/pdfs/thabisa_dingani_resume.pdf';
 
 /**

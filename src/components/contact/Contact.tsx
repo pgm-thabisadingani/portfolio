@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { contacts } from '../../data/data';
 import { Loading } from '../general';
+import { Section } from '../section';
 // import { FadeSection, Section } from '../section';
 import ContactItem from './ContactItem';
 

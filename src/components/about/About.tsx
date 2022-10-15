@@ -3,6 +3,7 @@ import React from 'react';
 // import { FadeSection, Section } from '../section';
 import styled from 'styled-components';
 import Image from 'next/image';
+import { Section } from '../section';
 
 const StylesAbout = styled.div`
   display: flex;
