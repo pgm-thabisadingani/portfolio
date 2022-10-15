@@ -48,7 +48,7 @@ const StylesTracker = styled.div`
 
 const Technologies = () => {
   return (
-    <FadeSection>
+    <>
       <StylesContainer className="w-full h-[100px] flex justify-center items-center">
         <StylesTracker>
           {!technologies ? (
@@ -62,7 +62,7 @@ const Technologies = () => {
           )}
         </StylesTracker>
       </StylesContainer>
-    </FadeSection>
+    </>
   );
 };
 

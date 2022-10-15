@@ -12,7 +12,7 @@ const StylesContainer = styled.div`
 
 const Contact = () => {
   return (
-    <FadeSection>
+    <>
       <div className="spacing">
         <Section title="Contact" subTitle="Get In Touch." id="contact" />
         <StylesContainer>
@@ -33,7 +33,7 @@ const Contact = () => {
           )}
         </StylesContainer>
       </div>
-    </FadeSection>
+    </>
   );
 };
 

@@ -17,7 +17,7 @@ const StyledServiceList = styled.div`
 
 const Services = () => {
   return (
-    <FadeSection>
+    <>
       <div className="spacing">
         <Section title="Services" subTitle="What I Am Good At." id="services" />
         <StyledServiceList>
@@ -37,7 +37,7 @@ const Services = () => {
           )}
         </StyledServiceList>
       </div>
-    </FadeSection>
+    </>
   );
 };
 

@@ -49,7 +49,7 @@ const Projects = () => {
   const [category, setCategory] = useState('All');
 
   return (
-    <FadeSection>
+    <>
       <div className="spacing">
         <Section title="Projects" subTitle="Explore My Work." id="projects" />
         <StylesButtons>
@@ -110,7 +110,7 @@ const Projects = () => {
           )}
         </StyledProjectList>
       </div>
-    </FadeSection>
+    </>
   );
 };
 

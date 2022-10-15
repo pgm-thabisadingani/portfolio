@@ -3,6 +3,18 @@
  */
 export const projects = [
   {
+    id: 'project0',
+    catergoryId: 'project2',
+    img: 'movie_app.png',
+    title: 'Movie Preview App',
+    detail:
+      'The Movie Application similar to the Imdb website, built with React, Movie database API and Axios .',
+    linkGit: 'https://github.com/pgm-thabisadingani/movie-app-clone',
+    linkLive: 'https://pgm-thabisadingani.github.io/movie-app-clone/',
+    date: '10/20/21',
+    lang: ['React', 'Axios', 'MovieDb-API', 'swiper', 'SASS'],
+  },
+  {
     id: 'project1',
     catergoryId: 'project1',
     img: 'style-helper.png',
@@ -44,7 +56,7 @@ export const projects = [
     lang: ['react-native', 'firebase', 'Expo', 'Formik', 'Yup'],
   },
   {
-    id: 'project6',
+    id: 'project4',
     catergoryId: 'project4',
     img: 'white-house.png',
     title: 'The White House clone',
@@ -55,7 +67,7 @@ export const projects = [
     lang: ['WordPress', 'PHP', 'MySQL', 'SASS', 'ACF', 'CPT'],
   },
   {
-    id: 'project4',
+    id: 'project5',
     catergoryId: 'project4',
     img: 'imdbooks.png',
     title: 'Book Preview App',
@@ -66,19 +78,7 @@ export const projects = [
     lang: ['PHP', 'MVC-model', 'MySQL', 'HTML', 'CSS'],
   },
   {
-    id: 'project13',
-    catergoryId: 'project2',
-    img: 'movie_app.png',
-    title: 'Movie Preview App',
-    detail:
-      'The Movie Application similar to the Imdb website, built with React, Movie database API and Firebase.',
-    linkGit: 'https://github.com/pgm-thabisadingani/movie-app',
-    linkLive: 'https://pgm-thabisadingani.github.io/movie-app/',
-    date: '10/20/21',
-    lang: ['React', 'Firebase', 'MovieDb-API', 'Storybook', 'SASS'],
-  },
-  {
-    id: 'project5',
+    id: 'project6',
     catergoryId: 'project3',
     img: 'digital_agency.png',
     title: 'Digital Agency',
@@ -90,7 +90,7 @@ export const projects = [
     lang: ['Nunjucks', 'Eleventy', 'JavaScript', 'Bootstrap', 'SASS'],
   },
   {
-    id: 'project11',
+    id: 'project7',
     catergoryId: 'project0',
     img: 'spotify_api.png',
     title: 'Spotify API clone',
@@ -101,7 +101,7 @@ export const projects = [
     lang: ['Express.js', 'SQLite3', 'Knex.js', 'bcrypt', 'Passport.js', 'JWT'],
   },
   {
-    id: 'project7',
+    id: 'project8',
     catergoryId: 'project3',
     img: 'walking_hiking_app.png',
     title: 'Walking/Hiking App',
@@ -113,7 +113,7 @@ export const projects = [
     lang: ['Eleventy', 'Nunjucks', 'SASS', 'JavaScript'],
   },
   {
-    id: 'project8',
+    id: 'project9',
     catergoryId: 'project0',
     img: 'arne_quinze.png',
     title: 'Arne Quinze',
@@ -127,7 +127,7 @@ export const projects = [
     lang: ['JavaScript', 'HTML', 'CSS', 'JSON'],
   },
   {
-    id: 'project12',
+    id: 'project10',
     catergoryId: 'project0',
     img: 'data_mashup.png',
     title: 'Data Mashup GitHub App',
@@ -141,7 +141,7 @@ export const projects = [
     lang: ['JavaScript', 'Weather API', 'Covid API', 'Github API', 'JSON'],
   },
   {
-    id: 'project9',
+    id: 'project11',
     catergoryId: 'project0',
     img: 'gentse_feesten.png',
     title: 'Gentse Feesten',
@@ -155,7 +155,7 @@ export const projects = [
     lang: ['JavaScript', 'HTML', 'CSS', 'API'],
   },
   {
-    id: 'project10',
+    id: 'project12',
     catergoryId: 'project0',
     img: 'ailiv.png',
     title: 'Web Development',

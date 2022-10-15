@@ -60,7 +60,7 @@ const StylesButtons = styled.div`
 const Hero = () => {
   // console.log(myResume);
   return (
-    <FadeSection>
+    <>
       <StylesHero>
         <h1 className="mb-6">Hey there, I am Thabisa </h1>
         <h3>A front-end developer, building beautiful web experiences.</h3>
@@ -78,7 +78,7 @@ const Hero = () => {
           />
         </StylesButtons>
       </StylesHero>
-    </FadeSection>
+    </>
   );
 };
 

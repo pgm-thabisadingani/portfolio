@@ -38,7 +38,7 @@ const StylesRight = styled.div`
 
 const About = () => {
   return (
-    <FadeSection>
+    <>
       <div className="spacing">
         <Section title="About" subTitle="Who I Am." id="about" />
         <StylesAbout>
@@ -65,7 +65,7 @@ const About = () => {
           </StylesRight>
         </StylesAbout>
       </div>
-    </FadeSection>
+    </>
   );
 };
 
