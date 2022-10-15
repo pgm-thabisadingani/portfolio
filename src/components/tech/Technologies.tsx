@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { technologies } from '../../data/data';
 import { Loading } from '../general';
-import { FadeSection } from '../section';
+// import { FadeSection } from '../section';
 import TechItem from './TechItem';
 
 const StylesContainer = styled.div`

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { services } from '../../data/data';
 import { CardServices } from '../cards';
 import { Loading } from '../general';
-import { FadeSection, Section } from '../section';
+// import { FadeSection, Section } from '../section';
 
 const StyledServiceList = styled.div`
   display: flex;

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { FadeSection, Section } from '../section';
+// import { FadeSection, Section } from '../section';
 import styled from 'styled-components';
 import Image from 'next/image';
 
