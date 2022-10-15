@@ -14,14 +14,14 @@ export const StyledMenu = styled.nav<Props>`
   display: none;
 
   a {
-    color: ${({ theme }) => theme.colors.pink};
+    color: ${({ theme }) => theme.colors.white};
     text-decoration: none;
     font-size: 2.5rem;
     font-weight: ${({ theme }) => theme.fontWeights.medium};
     text-transform: uppercase;
   }
   a:hover {
-    color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.pink};
   }
   @media (max-width: ${({ theme }) => theme.devices.desktopL}) {
     flex-flow: column wrap;
