@@ -27,6 +27,7 @@ export const projects = [
       'React',
       'Material',
       'Axios',
+      'Redux Toolkit',
       'SASS',
       'Cors',
       'Node',
