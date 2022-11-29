@@ -20,7 +20,7 @@ export const projects = [
     img: 'mytube.png',
     title: 'Video Sharing App',
     detail:
-      'Video Sharing MERN stake project similar to youtube, built with React, Mongoose, Firebase and Axios. Feature inclide dark and light mode',
+      'Video Sharing MERN stack project similar to youtube, built with React, Mongoose, Firebase and Axios. Feature inclide dark and light mode',
     linkGit: 'https://github.com/pgm-thabisadingani/mytube',
     date: '10/20/21',
     lang: [
@@ -45,7 +45,7 @@ export const projects = [
     img: 'mini_blog.png',
     title: 'Mini Blog App',
     detail:
-      'The Mini Blog MERN stake project, built with React, Mongoose, MySQL and Axios .',
+      'The Mini Blog MERN stack project, built with React, Mongoose, MySQL and Axios .',
     linkGit: 'https://github.com/pgm-thabisadingani/mini-blog-website',
     date: '10/20/21',
     lang: [
