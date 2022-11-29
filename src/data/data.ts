@@ -6,7 +6,7 @@ export const projects = [
     id: 'project=3',
     catergoryId: 'project2',
     img: 'dashboardUI.png',
-    title: 'Dashboard UI',
+    title: 'Dashboard UI Design',
     detail:
       'Admin dashboard UI project, built with React and Syncfusion. Feature includes dark mode and responsive deign',
     linkGit: 'https://github.com/pgm-thabisadingani/admin-dashboard',
