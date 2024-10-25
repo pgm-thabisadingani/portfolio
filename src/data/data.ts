@@ -3,12 +3,31 @@
  */
 export const projects = [
   {
+    id: 'project=13',
+    catergoryId: 'project2',
+    img: 'dashboardUI.png',
+    title: 'Whack-A-Mole',
+    detail:
+      'This project is a fun take on the classic Whack-A-Mole game, built with modern tools and technologies to enhance the development experience and performance.',
+    linkGit: 'https://github.com/pgm-thabisadingani/whack-a-mole',
+    linkLive: 'https://whack-mole.onrender.com/',
+    date: '10/23/24',
+    lang: [
+      'React',
+      'TypeScript',
+      'Redux Toolkit',
+      'SASS',
+      'Supabase',
+      'LocalStorage ',
+    ],
+  },
+  {
     id: 'project=3',
     catergoryId: 'project2',
     img: 'dashboardUI.png',
     title: 'Dashboard UI Design',
     detail:
-      'Admin dashboard UI project, built with React and Syncfusion. Feature includes dark mode and responsive deign',
+      'Admin dashboard UI project, built with React and Syncfusion. Feature includes dark mode and responsive design',
     linkGit: 'https://github.com/pgm-thabisadingani/admin-dashboard',
     linkLive: 'https://admin-dashbard.onrender.com/',
     date: '10/20/21',
@@ -20,7 +39,7 @@ export const projects = [
     img: 'mytube.png',
     title: 'Video Sharing App',
     detail:
-      'Video Sharing MERN stack project similar to youtube, built with React, Mongoose, Firebase and Axios. Feature inclide dark and light mode',
+      'Video Sharing MERN stack project similar to youtube, built with React, Mongoose, Firebase and Axios. Feature includes dark and light mode',
     linkGit: 'https://github.com/pgm-thabisadingani/mytube',
     date: '10/20/21',
     lang: [
