@@ -5,7 +5,7 @@ export const projects = [
   {
     id: 'project=13',
     catergoryId: 'project2',
-    img: 'dashboardUI.png',
+    img: 'whack_a_mole.png',
     title: 'Whack-A-Mole',
     detail:
       'This project is a fun take on the classic Whack-A-Mole game, built with modern tools and technologies to enhance the development experience and performance.',
