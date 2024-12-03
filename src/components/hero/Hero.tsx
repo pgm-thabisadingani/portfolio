@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Button } from '../buttons/Buttons';
 // import { FadeSection } from '../section';
-// import myResume from './assets/pdfs/thabisa_dingani_resume.pdf';
 
 /**
  * Styles
@@ -74,7 +73,7 @@ const Hero = () => {
           <Button
             title="View my CV"
             type="tertiary"
-            url="/files/thabisa_dingani_resume.pdf"
+            url="/files/dinganiThabisaResume.pdf"
           />
         </StylesButtons>
       </StylesHero>
